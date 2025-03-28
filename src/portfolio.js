@@ -173,32 +173,43 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Software Engineer – AI Reliability",
+      company: "Mercado Libre",
+      companylogo: require("./assets/images/mercado_libre_logo.png"),
+      date: "Feb 2023 – Feb 2025",
+      desc: "Designed scalable AI monitoring systems to ensure model reliability in production environments.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed anomaly detection pipelines with evaluation metrics like F1, ROC-AUC, and Precision/Recall.",
+        "Integrated LLMs into event-driven architectures for real-time model monitoring and intelligent diagnostics.",
+        "Built backend microservices with Python (Flask) and Java (Spring Boot) deployed on GCP."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer – Credits",
+      company: "Mercado Libre",
+      companylogo: require("./assets/images/mercado_libre_logo.png"),
+      date: "Feb 2021 – Feb 2023",
+      desc: "Engineered high-performance microservices and data pipelines for credit scoring systems.",
+      descBullets: [
+        "Worked with Python and Go to build scalable, distributed backend components.",
+        "Processed large volumes of transactional data using BigQuery for risk evaluation models.",
+        "Implemented real-time decision flows using messaging queues and CI/CD best practices."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Engineer .NET",
+      company: "ESPN (via Globant)",
+      companylogo: require("./assets/images/globant_logo.png"),
+      date: "May 2020 – Feb 2021",
+      desc: "Led migration and modernization of legacy .NET systems for sports data platforms.",
+      descBullets: [
+        "Migrated .NET Framework to .NET Core and improved performance by 40%.",
+        "Implemented CI/CD pipelines and unit testing with JavaScript.",
+        "Deployed services on Azure with integrated monitoring dashboards."
+      ]
     }
   ]
 };
