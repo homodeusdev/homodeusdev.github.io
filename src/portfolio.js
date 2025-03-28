@@ -293,7 +293,7 @@ const achievementSection = {
       title: "DeepLearning.AI TensorFlow Developer",
       subtitle:
         "Mastered TensorFlow for computer vision, time series, and NLP tasks. Built and deployed ML models as part of a 4-course specialization.",
-      image: require("./assets/images/deeplearningaiLogo.png"),
+      image: require("./assets/images/deep_learning_ai_logo.png"),
       imageAlt: "DeepLearning.AI Logo",
       footerLink: [
         {
