@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Jose Martin Rangel Espinoza",
-  title: "Hi all, I'm Jose Martin 👋",
+  username: "Martin Rangel",
+  title: "Hi all, I'm Jose Martin Rangel Espinoza",
   subTitle: emoji(
     "A passionate AI & Backend Engineer 🚀 with over 5 years of experience building robust, scalable ML/NLP systems using Python, TensorFlow, PyTorch, and Hugging Face. Skilled in integrating LLMs and deploying AI-driven microservices on cloud platforms like GCP and Azure. I bridge the gap between ML and software engineering to deliver production-ready solutions."
   ),
