@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Jose Martin",
-  title: "Hi all, I'm Jose Martin",
+  username: "Jose Martin Rangel Espinoza",
+  title: "Hi all, I'm Jose Martin 👋",
   subTitle: emoji(
-    "A passionate Machine Learning Engineer 🚀 with over 5 years of experience designing and deploying AI-driven solutions using Python, TensorFlow, PyTorch, and modern MLOps tools. Skilled in building scalable ML pipelines, integrating models into cloud-native microservices with Google Cloud, and applying Deep Learning, NLP, and Computer Vision to real-world problems. Always exploring new ways to automate, monitor, and improve AI workflows to create reliable and impactful solutions."
+    "A passionate AI & Backend Engineer 🚀 with over 5 years of experience building robust, scalable ML/NLP systems using Python, TensorFlow, PyTorch, and Hugging Face. Skilled in integrating LLMs and deploying AI-driven microservices on cloud platforms like GCP and Azure. I bridge the gap between ML and software engineering to deliver production-ready solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -35,82 +35,74 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/homodeusdev",
   linkedin: "https://www.linkedin.com/in/martinrangel/",
-  gmail: "jrangelespinoza@gmail.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  gmail: "jrangelespinoza@outlook.com",
+  // Puedes agregar más redes si lo deseas
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Engineer on a mission to turn AI ideas into scalable, production-grade systems.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Architect and deploy end-to-end machine learning pipelines with MLOps best practices"),
+    emoji("⚡ Implement LLM-based solutions for RAG, intelligent agents, and task automation"),
+    emoji("⚡ Optimize backend microservices to support real-time AI inference at scale"),
+    emoji("⚡ Design robust APIs and integrate ML models into production-ready cloud systems")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Go",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "Hugging Face",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "BigQuery",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -119,26 +111,40 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universidad Internacional de La Rioja (UNIR)",
+      logo: require("./assets/images/unir_logo.png"),
+      subHeader: "Master’s Degree in Artificial Intelligence",
+      duration: "Jan 2020 - Dec 2023",
+      desc: "Focused on Generative AI, NLP, Machine Learning, and model evaluation techniques.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Projects involving LLMs, RAG, and performance metrics like F1, ROC-AUC, Precision/Recall.",
+        "Thesis on optimization of AI models for intelligent decision-making systems."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universidad Internacional de La Rioja (UNIR)",
+      logo: require("./assets/images/unir_logo.png"),
+      subHeader: "Master’s Degree in Web Development Engineering",
+      duration: "Jan 2017 - Dec 2019",
+      desc: "Specialized in scalable backend development and cloud computing.",
+      descBullets: [
+        "Built backend services and microservices using .NET and JavaScript frameworks.",
+        "Emphasis on system design, API development, and deployment to cloud platforms."
+      ]
+    },
+    {
+      schoolName: "Instituto Politécnico Nacional (IPN)",
+      logo: require("./assets/images/ipn_logo.png"),
+      subHeader: "Bachelor’s Degree in Computer Systems Engineering",
+      duration: "Jan 2004 - Dec 2009",
+      desc: "Strong foundation in data structures, algorithms, and software architecture.",
+      descBullets: [
+        "Academic projects focused on database systems and backend logic.",
+        "Gained early exposure to .NET and enterprise systems."
+      ]
     }
   ]
 };
@@ -367,9 +373,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My inbox is always open.",
+  number: "+52 5567843855",
+  email_address: "jrangelespinoza@outlook.com"
 };
 
 // Twitter Section
