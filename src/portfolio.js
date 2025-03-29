@@ -251,6 +251,22 @@ const bigProjects = {
           url: "https://huggingface.co/spaces/homodeus/interview-warmup"
         }
       ]
+    },
+    {
+      image: require("./assets/images/llm.webp"),
+      projectName: "LLM-Powered DB Query",
+      projectDesc:
+        "Query your SQLite database using natural language powered by OpenAI. Upload a `.db` file, ask questions in plain English or Spanish, and get tabular results with visualizations.",
+      footerLink: [
+        {
+          name: "Try it on Hugging Face",
+          url: "https://huggingface.co/spaces/homodeus/llm-database-query"
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/homodeusdev/llm-database-query"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
