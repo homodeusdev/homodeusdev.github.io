@@ -225,34 +225,27 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  subtitle: "My personal lab: where experimentation meets real-world application.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/langchain_logo.png"),
+      projectName: "Google Drive RAG",
+      projectDesc:
+        "An app that connects to your Google Drive, lets you select PDFs, and ask questions about their content using Retrieval-Augmented Generation (RAG) with OpenAI. Built with Gradio, LangChain, and ChromaDB.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
+          name: "View on Hugging Face",
+          url: "https://huggingface.co/spaces/homodeus/google-drive-rag"
+        },
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "GitHub Repository",
+          url: "https://github.com/homodeusdev/google-drive-rag"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
