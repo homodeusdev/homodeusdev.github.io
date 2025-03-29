@@ -261,10 +261,6 @@ const bigProjects = {
         {
           name: "Try it on Hugging Face",
           url: "https://huggingface.co/spaces/homodeus/llm-database-query"
-        },
-        {
-          name: "GitHub Repository",
-          url: "https://github.com/homodeusdev/llm-database-query"
         }
       ]
     }
