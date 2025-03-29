@@ -241,7 +241,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/interview_warmup.png"),
+      image: require("./assets/images/interview_warmup.jpg"),
       projectName: "Interview Warmup",
       projectDesc:
         "A powerful tool that simulates bilingual job interviews using OpenAI's Whisper, ChatGPT, and DALL·E. Ideal for job seekers and recruiters to practice, evaluate, and improve interview performance.",
