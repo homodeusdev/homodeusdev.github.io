@@ -237,10 +237,18 @@ const bigProjects = {
         {
           name: "View on Hugging Face",
           url: "https://huggingface.co/spaces/homodeus/google-drive-rag"
-        },
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/interview_warmup.png"),
+      projectName: "Interview Warmup",
+      projectDesc:
+        "A powerful tool that simulates bilingual job interviews using OpenAI's Whisper, ChatGPT, and DALL·E. Ideal for job seekers and recruiters to practice, evaluate, and improve interview performance.",
+      footerLink: [
         {
-          name: "GitHub Repository",
-          url: "https://github.com/homodeusdev/google-drive-rag"
+          name: "Try it on Hugging Face",
+          url: "https://huggingface.co/spaces/homodeus/interview-warmup"
         }
       ]
     }
